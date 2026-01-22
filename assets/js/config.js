@@ -1,1 +1,3 @@
-const LABSOCIAL_CONFIG={proxyUrl:"INSIRA_SEU_WORKER",defaultProvider:"agenciapopular"}
+const CONFIG = {
+  proxyUrl: "https://labproxy-labsocial.g-labri.workers.dev/"
+}
