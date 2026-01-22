@@ -1,0 +1,1 @@
+export default{async fetch(r){const b=await r.json();return fetch("https://agenciapopular.com/api/v2",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({key:"API_KEY_AQUI",...b})})}}
