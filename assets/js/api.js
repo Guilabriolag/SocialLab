@@ -1,0 +1,1 @@
+async function labRequest(p){const r=await fetch(LABSOCIAL_CONFIG.proxyUrl,{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({...p,provider:LABSOCIAL_CONFIG.defaultProvider})});return r.json()}

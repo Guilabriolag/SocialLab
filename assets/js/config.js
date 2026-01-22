@@ -1,0 +1,1 @@
+const LABSOCIAL_CONFIG={proxyUrl:"INSIRA_SEU_WORKER",defaultProvider:"agenciapopular"}
