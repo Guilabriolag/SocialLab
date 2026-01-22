@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>LabSocial • Comprar</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<header>
+<h2>LabSocial</h2>
+<a href="pedidos.html">Consultar Pedido</a>
+</header>
+<main class="center">
+<div class="card">
+<h3>Novo Pedido</h3>
+<label>Serviço</label>
+<select id="serviceSelect"></select>
+<label>Link</label>
+<input id="linkInput">
+<label>Quantidade</label>
+<input id="qtyInput" type="number">
+<button class="btn primary" id="buyBtn">Comprar</button>
+<div id="result" class="result"></div>
+</div>
+</main>
+<script src="assets/js/config.js"></script>
+<script src="assets/js/api.js"></script>
+<script src="assets/js/services.js"></script>
+<script src="assets/js/orders.js"></script>
+<script src="assets/js/ui.js"></script>
+</body>
+</html>
